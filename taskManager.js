@@ -1,5 +1,5 @@
 //me siga no insta @natanieltech
-class TaskManager {
+export class TaskManager {
     constructor() {
         if (!TaskManager.instance) {
             this.tasks = [];
