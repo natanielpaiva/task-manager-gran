@@ -1,4 +1,4 @@
-import { taskManager, TaskManager } from './TaskManager';
+import { taskManager, TaskManager } from './taskManager.js';
 describe('TaskManager', () => {
   test('deve seguir o padrão Singleton', () => {
     const instance1 = taskManager;
