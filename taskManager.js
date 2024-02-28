@@ -9,7 +9,6 @@ export class TaskManager {
         return TaskManager.instance;
     }
 
-    61 8219-1569
 
     addTask(task) {
         this.tasks.push(task);
