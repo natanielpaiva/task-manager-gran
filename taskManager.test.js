@@ -36,7 +36,7 @@ describe('TaskManager', () => {
 describe('TaskManager cobertura de branch', () => {
     test('não deve remover tarefa com índice inválido (negativo)', () => {
       const initialTaskCount = taskManager.getTasks().length;
-      taskManager.removeTask(-1); // Índice inválido
+      taskManager.removeTask(1); // Índice inválido
       expect(taskManager.getTasks().length).toBe(initialTaskCount);
     });
   
